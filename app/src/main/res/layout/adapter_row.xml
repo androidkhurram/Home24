@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="85dp"
+    android:id="@+id/mainLayout"
+    tools:context="com.neberox.app.survey.com.home24.app.survey.MainActivity">
+
+   <com.facebook.drawee.view.SimpleDraweeView
+       android:layout_centerVertical="true"
+       android:layout_marginLeft="5dp"
+       android:scaleType="centerInside"
+       android:layout_width="70dp"
+       android:layout_height="70dp"
+       android:id="@+id/image"
+       />
+
+   <TextView
+       android:layout_marginRight="5dp"
+       android:gravity="center"
+       android:layout_toLeftOf="@+id/likeImg"
+       android:layout_toRightOf="@+id/image"
+        android:textSize="12sp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/title"
+        />
+
+   <ImageView
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:scaleType="centerInside"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/likeImg"
+        />
+
+
+</RelativeLayout>
